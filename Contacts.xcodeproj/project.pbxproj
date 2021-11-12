@@ -17,7 +17,6 @@
 		E8EF3364273ED1DC007964FF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EF3363273ED1DC007964FF /* DataManager.swift */; };
 		E8EF3367273ED238007964FF /* Persone.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EF3366273ED238007964FF /* Persone.swift */; };
 		E8EF336B273ED573007964FF /* PersoneRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EF336A273ED573007964FF /* PersoneRow.swift */; };
-		E8EF336D273EF5A4007964FF /* SectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EF336C273EF5A4007964FF /* SectionRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +31,6 @@
 		E8EF3363273ED1DC007964FF /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		E8EF3366273ED238007964FF /* Persone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persone.swift; sourceTree = "<group>"; };
 		E8EF336A273ED573007964FF /* PersoneRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersoneRow.swift; sourceTree = "<group>"; };
-		E8EF336C273EF5A4007964FF /* SectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +69,6 @@
 				E8EF336A273ED573007964FF /* PersoneRow.swift */,
 				E8EF3361273ECEF5007964FF /* DetailInfo.swift */,
 				E8EF335F273ECEDE007964FF /* NumberList.swift */,
-				E8EF336C273EF5A4007964FF /* SectionRow.swift */,
 				E8EF3365273ED1FA007964FF /* Models */,
 				E8EF3353273ECE75007964FF /* Assets.xcassets */,
 				E8EF3355273ECE75007964FF /* Preview Content */,
@@ -166,7 +163,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8EF336D273EF5A4007964FF /* SectionRow.swift in Sources */,
 				E8EF3362273ECEF5007964FF /* DetailInfo.swift in Sources */,
 				E8EF3367273ED238007964FF /* Persone.swift in Sources */,
 				E8EF3364273ED1DC007964FF /* DataManager.swift in Sources */,

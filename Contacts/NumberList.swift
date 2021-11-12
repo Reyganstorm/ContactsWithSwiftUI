@@ -13,10 +13,21 @@ struct NumberList: View {
     var body: some View {
         NavigationView {
             List(persons) {persone in
-                SectionRow(person: persone)
+                Section(header: Text("\(persone.fullName)")) {
+                    HStack {
+                        Image(systemName: "phone")
+                        Text("\(persone.phoneNumber)")
+                        }
+                    HStack {
+                        Image(systemName: "envelope")
+                        Text("\(persone.email)")
+                        }
+                }
             }
             .navigationTitle("Information List")
         }
+                 
+        .listStyle(.insetGrouped)
     }
 }
 
