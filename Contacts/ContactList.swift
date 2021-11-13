@@ -19,7 +19,7 @@ struct ContactList: View {
                     
                 
             }
-//            .listStyle(.plain)
+            .listStyle(.plain)
             .navigationTitle("Contact List")
         }
         

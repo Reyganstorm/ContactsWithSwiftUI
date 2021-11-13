@@ -18,6 +18,7 @@ struct DetailInfo: View {
             Text("Phone number: \(persone.phoneNumber)")
             Text("Email Adress: \(persone.email)")
         }
+    //    .listStyle(.plain)
         .navigationTitle("\(persone.fullName)")
     }
 }
