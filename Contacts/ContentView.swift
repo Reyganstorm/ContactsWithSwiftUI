@@ -14,7 +14,7 @@ struct ContentView: View {
         TabView {
             ContactList(persons: persone)
                 .tabItem{
-                    Image(systemName: "person.2.circle.fill")
+                    Image(systemName: "person.crop.square")
                     Text("Contacts")
                 }
             NumberList(persons: persone)

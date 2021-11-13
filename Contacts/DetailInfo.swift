@@ -11,13 +11,15 @@ struct DetailInfo: View {
     let persone: Persone
     
     var body: some View {
-        VStack {
-            Spacer()
+        List {
+            Image(systemName: "person.crop.square")
+                .resizable()
+                .frame(width: 250, height: 250)
             Text("Phone number: \(persone.phoneNumber)")
-                .padding(.trailing)
+                
             Text("Email Adress: \(persone.email)")
-                .padding(.trailing)
-            Spacer()
+                
+            
         }
         .navigationTitle("\(persone.fullName)")
     }
