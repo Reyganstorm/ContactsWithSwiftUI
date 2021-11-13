@@ -16,10 +16,7 @@ struct DetailInfo: View {
                 .resizable()
                 .frame(width: 250, height: 250)
             Text("Phone number: \(persone.phoneNumber)")
-                
             Text("Email Adress: \(persone.email)")
-                
-            
         }
         .navigationTitle("\(persone.fullName)")
     }

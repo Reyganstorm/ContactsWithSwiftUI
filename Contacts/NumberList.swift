@@ -14,20 +14,18 @@ struct NumberList: View {
         NavigationView {
             List(persons) {persone in
                 Section(header: Text("\(persone.fullName)")) {
-                    HStack {
-                        Image(systemName: "phone")
-                        Text("\(persone.phoneNumber)")
-                        }
-                    HStack {
-                        Image(systemName: "envelope")
-                        Text("\(persone.email)")
-                        }
+                        HStack {
+                            Image(systemName: "phone")
+                            Text("\(persone.phoneNumber)")
+                            }
+                        HStack {
+                            Image(systemName: "envelope")
+                            Text("\(persone.email)")
+                            }
                 }
             }
             .navigationTitle("Information List")
         }
-                 
-        .listStyle(.insetGrouped)
     }
 }
 

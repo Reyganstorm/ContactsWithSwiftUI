@@ -8,8 +8,7 @@
 import Foundation
 
 struct Persone: Identifiable {
-    var id: Int
-    
+    let id: Int
     let name: String
     let surname: String
     let email: String
